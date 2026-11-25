@@ -9,7 +9,7 @@ public class Main {
         Usuario usuario = new Usuario("admin", "1234");
 
         if (!fazerLogin(usuario)) {
-            return; // errou 3 vezes: encerra o programa
+            return; // errou 3 vezes: o programa e fechado automaticamente
         }
 
         Impressora impressora = new Impressora();
